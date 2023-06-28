@@ -108,6 +108,7 @@ btn.addEventListener("click", function () {
 
 console.log([7, 64, 6, -23, 11].filter((el) => el > 10));
 console.log([7, 64, 6, -23, 11].find((el) => el > 10));
+console.log(CATEGORIES.find((cat) => cat.name === "society").color);
 
 /*
 let votesInteresting = 23;
